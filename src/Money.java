@@ -114,9 +114,9 @@ public class Money
     @Override
     public String toString() {
         return this.cents / 10 == 0
-                ? "The current amount is $" + this.dollars + ".0"
+                ? "$" + this.dollars + ".0"
                 + this.cents
-                : "The current amount is $" + this.dollars + "."
+                : "$" + this.dollars + "."
                 + this.cents;
     }
 }
